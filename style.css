@@ -1,0 +1,37 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: #1F2937;
+}
+
+.nav-bar{
+    display: flex;
+    margin-left: 7em;
+    margin-right: 7em;
+    justify-content: space-between;
+    font-size: 24px;
+   
+    
+}
+
+.logo{
+    width: 20em;
+    height: 7em;
+    
+}
+
+a{
+    color: #F9FAF8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+    font-size: 3rem;
+
+}
