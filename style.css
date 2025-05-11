@@ -10,8 +10,8 @@ header{
 
 .nav-bar{
     display: flex;
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 5em;
+    margin-right: 5em;
     justify-content: space-between;
     font-size: 24px;
    
@@ -19,8 +19,11 @@ header{
 }
 
 .logo{
+    padding-top: 1em;
     width: 20em;
     height: 7em;
+    border-radius: 1em;
+    box-shadow:#E5E7EB;
     
 }
 
@@ -34,4 +37,48 @@ ul{
     gap: 1em;
     font-size: 3rem;
 
+}
+
+.header-content{
+    display: flex;
+    margin-top: 4em;
+    margin: 15em 7em 2em 7em;
+    height: 500px;
+    justify-content: space-between;
+}
+.main-msg{
+    font-size: 7em;
+    font-weight: 900;
+    color: #F9FAF8
+}
+.sub-heading{
+    font-size: 3.5em;
+    color: #E5E7EB;
+
+}
+.left-column{
+    flex-direction: column;
+    font-size: rem;
+}
+.btn{
+    align-self: center;
+}
+.btn > button{
+    width: 15em;
+    height: 4em;
+    font-size: 2em;
+    border-radius: 1em;
+    background-color: #3882F6;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-left: 35em;
+    
+}
+
+.main-logo > img{
+    margin-left: auto;
+    width: 30em;
+    height: 30em;
+    border-radius: 50%;
+    margin-right: 9.5em;
 }
