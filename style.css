@@ -109,10 +109,10 @@ h2{
 }
 .structure-cont > p, .construction-cont > p, .borehole-cont > p, .road-cont > p
 {
-    width: 27ch;
-    
+    width: 40ch;
+    padding-left: 4em;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color: #404142;
 }
 .structure{
@@ -121,3 +121,29 @@ h2{
     width: 50em;
     
 }
+
+/* Styling of Qoutes */
+.quotes{
+    display: flex;
+    background-color: #E5E7EB;
+    gap: 2em;
+    justify-content: space-around;
+    padding-left: 10em;
+    padding-right: 10em;
+    flex-wrap: wrap;
+}
+
+.inspiration > p, .testimonial > p{
+    font-size: 2.5em;
+    width: 40ch;
+    color:#3e4753;
+    font-style: italic;
+}
+
+span{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
