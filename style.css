@@ -6,6 +6,7 @@
 }
 header{
     background-color: #1F2937;
+    
 }
 
 .nav-bar{
@@ -14,6 +15,7 @@ header{
     margin-right: 5em;
     justify-content: space-between;
     font-size: 24px;
+    flex-wrap: wrap;
    
     
 }
@@ -45,6 +47,7 @@ ul{
     margin: 15em 7em 2em 7em;
     height: 500px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .main-msg{
     font-size: 7em;
@@ -81,4 +84,40 @@ ul{
     height: 30em;
     border-radius: 50%;
     margin-right: 9.5em;
+}
+/* Styles for the Services Section */
+
+h2{
+    font-size: 5em;
+    font-weight: 900;
+    padding-left: 45vw;
+    color: #1F2937;
+    
+}
+.services{
+    display: flex;
+    gap: 7em;
+    padding-left: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.structure-cont > img, .construction-cont > img, .borehole-cont > img, .road-cont > img{
+    width: 50em;
+    height: 30em;
+    border: 0.5em solid #3882F6;
+    border-radius: 2em;
+}
+.structure-cont > p, .construction-cont > p, .borehole-cont > p, .road-cont > p
+{
+    width: 27ch;
+    
+    text-align: center;
+    font-size: 3em;
+    color: #404142;
+}
+.structure{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50em;
+    
 }
